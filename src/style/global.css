@@ -1,0 +1,35 @@
+/* 기본폰트 thin */
+@font-face {
+  font-family: "MoveSans-Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/MoveSans-Bold.woff2")
+    format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* 기본폰트 normal */
+@font-face {
+  font-family: "MoveSans-Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/MoveSans-Bold.woff2")
+    format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* 기본폰트 bold */
+@font-face {
+  font-family: "MoveSans-Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/MoveSans-Bold.woff2")
+    format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* 동글동글 손글씨  게시글 작성란 폰트 */
+@font-face {
+  font-family: "KyoboHand";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff")
+    format("woff");
+  font-weight: thin;
+  font-style: normal;
+}

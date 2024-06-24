@@ -1,0 +1,1 @@
+export const headerMenuData = ["My Page", "Logout"];

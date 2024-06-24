@@ -1,14 +1,17 @@
-import SNSButton from "./SNSButton/SNSButton";
-import { FaApple, FaFacebook, FaGoogle } from "react-icons/fa";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Board from "./components/page/Board";
+import BoardRegister from "./components/page/BoardRegister";
+
 
 
 function App() {
   return (
-    <div className="App">
-      <SNSButton SNSIcon={{Icon: FaApple}}  SNSName={{name:"Apple"}} SNSBackgroundColor="Apple" SNSColor="white" />
-      <SNSButton SNSIcon={{Icon: FaFacebook}}  SNSName={{name:"Facebook"}} SNSBackgroundColor="Facebook" SNSColor="white" />
-      <SNSButton SNSIcon={{Icon: FaGoogle}}  SNSName={{name:"Google"}} SNSBackgroundColor="Google" SNSColor="Gray" />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Board />} />
+        <Route path="/BoardRegister" element={<BoardRegister />} />
+      </Routes>
+    </Router>
   );
 }
 
