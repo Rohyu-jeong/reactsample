@@ -13,6 +13,7 @@ const SideBar = () => {
         height: "calc(100vh - 70px)",
         display: "flex",
         flexDirection: "column",
+        backgroundColor: "white"
 
     }
 

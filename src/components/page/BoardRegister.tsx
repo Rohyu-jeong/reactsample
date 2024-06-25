@@ -1,3 +1,4 @@
+import BoardRegisterMain from "../boardRegister/BoardRegisterMain";
 import Header from "../header/Header";
 import SideBar from "../sidebar/SideBar";
 
@@ -6,6 +7,7 @@ const BoarderRegister = () => {
     <>
       <Header />
       <SideBar />
+      <BoardRegisterMain />
     </>
   );
 };
